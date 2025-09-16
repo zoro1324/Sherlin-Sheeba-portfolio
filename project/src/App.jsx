@@ -86,7 +86,7 @@ function App() {
             </Col>
             <Col md={6} className="text-center">
               <div className="hero-image-container">
-                <img src="/assets/sherlin_sheeba_profile.jpg" alt="S. Sherlin Sheeba" className="hero-image" />
+                <img src={`${import.meta.env.BASE_URL}assets/sherlin_sheeba_profile.jpg`} alt="S. Sherlin Sheeba" className="hero-image" />
               </div>
             </Col>
           </Row>
