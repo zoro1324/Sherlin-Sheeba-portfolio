@@ -86,7 +86,7 @@ function App() {
             </Col>
             <Col md={6} className="text-center">
               <div className="hero-image-container">
-                <img src="/src/assets/sherlin_sheeba_profile.jpg" alt="S. Sherlin Sheeba" className="hero-image" />
+                <img src="/assets/sherlin_sheeba_profile.jpg" alt="S. Sherlin Sheeba" className="hero-image" />
               </div>
             </Col>
           </Row>
