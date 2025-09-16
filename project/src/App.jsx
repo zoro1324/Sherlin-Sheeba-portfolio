@@ -42,7 +42,7 @@ function App() {
     <div className="App">
       <Navbar expand="lg" fixed="top" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Sammidurai Office</Navbar.Brand>
+          <Navbar.Brand href="#home">Samidurai Office</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
