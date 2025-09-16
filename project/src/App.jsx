@@ -108,6 +108,24 @@ function App() {
                 <Row className="mt-5">
                   <Col md={4} className="mb-4">
                     <div className="about-card">
+                      <div className="about-icon criminal" style={{ color: 'green' }}>
+                        <FaGavel />
+                      </div>
+                      <h3>Criminal Cases</h3>
+                      <p>Providing expert legal support in criminal matters, defending your rights and ensuring fair treatment under the law.</p>
+                    </div>
+                  </Col>
+                  <Col md={4} className="mb-4">
+                    <div className="about-card">
+                      <div className="about-icon corporate" style={{ color: 'green' }}>
+                        <FaBuilding />
+                      </div>
+                      <h3>Property Disputes</h3>
+                      <p>Handling complex property and real estate cases, ensuring your assets and rights are legally protected.</p>
+                    </div>
+                  </Col>
+                  <Col md={4} className="mb-4">
+                    <div className="about-card">
                       <div className="about-icon law">
                         <FaHandshake />
                       </div>
@@ -117,16 +135,7 @@ function App() {
                   </Col>
                   <Col md={4} className="mb-4">
                     <div className="about-card">
-                      <div className="about-icon corporate">
-                        <FaBuilding />
-                      </div>
-                      <h3>Property Disputes</h3>
-                      <p>Handling complex property and real estate cases, ensuring your assets and rights are legally protected.</p>
-                    </div>
-                  </Col>
-                  <Col md={4} className="mb-4">
-                    <div className="about-card">
-                      <div className="about-icon family">
+                      <div className="about-icon family" style={{ color: 'green' }}>
                         <MdGavel />
                       </div>
                       <h3>Civil Litigation</h3>
@@ -186,7 +195,7 @@ function App() {
                     <span className="duration">2017 - Present</span>
                     <span className="organization">Sammidurai Office</span>
                   </div>
-                  <p style={{ color: '#e6cece' }}>Assisted senior counsel in a variety of civil, family, and property cases. Responsible for legal research, drafting pleadings, and preparing case briefs for trial.</p>
+                  <p style={{ color: '#e6cece' }}>Assisted senior counsel in a variety of criminal, civil, family, and property cases. Responsible for legal research, drafting pleadings, and preparing case briefs for trial.</p>
                 </div>
               </div>
             </Col>
